@@ -1,0 +1,80 @@
+# Python virtual environments and installed packages
+venv/
+venv310/
+.venv/
+site-packages/
+Lib/site-packages/
+
+# Python caches and test caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Raw data, external datasets, and generated data
+data/raw/
+datasets/
+sample_data/**/*.zip
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.zip
+*.7z
+*.rar
+!sample_data/**/*.csv
+!sample_data/**/*.tsv
+
+# Generated outputs and figures
+outputs/
+generated/
+Lab-6/figures/
+Presentation/Pictures/
+model_comparison.csv
+booksData.csv
+booksData_cleaned.csv
+books_with_genres.csv
+clustered_books.csv
+
+# Trained models and checkpoints
+models/
+checkpoints/
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+# Reports and presentation exports may contain private metadata
+*.docx
+*.pptx
+*.pdf
+
+# Legacy assignment snippets include private local paths and should be curated before public use
+Lab-1&2/PW-2 solutions/
+
+# Local environment and secrets
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE/editor files
+.idea/
+.vscode/
+*.code-workspace
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+~$*
