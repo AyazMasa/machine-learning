@@ -1,22 +1,22 @@
-# Machine Learning Coursework Portfolio
+# Machine Learning Coursework
 
 ## Overview
 
-This repository is a curated Machine Learning coursework portfolio prepared for internship applications. It collects student-level Python work from multiple labs covering classification, imbalanced data, clustering, exploratory data analysis, visualization, and image classification experiments.
+This repository contains Machine Learning coursework implemented in Python. The labs cover classification, imbalanced data, clustering, exploratory data analysis, visualization, and image classification experiments.
 
-The goal of this repository is to show practical coursework experience honestly. The original recovered coursework included scripts, reports, generated figures, trained model files, and a virtual environment. This public version should keep the useful source code and documentation while excluding private paths, large datasets, generated outputs, virtual environments, and trained artifacts.
+The repository keeps the source code and setup notes needed to understand the work. Large datasets, generated outputs, virtual environments, and trained model artifacts are intentionally excluded.
 
 ## Included Labs/Projects
 
-| Folder | Project focus | Main source files | Status for public repo |
-| --- | --- | --- | --- |
-| `Lab-1&2/` | Web scraping book data, EDA, text clustering, and a simple MLP classifier using generated genre labels | `Code/script.py`, `Code/analysis.py`, `Code/summary.py` | Useful, but regenerated local data is needed before running end to end |
-| `Lab-3/` | Adult income classification with imbalanced-data handling | `index.py` | Strong portfolio candidate; expects `adult.csv` in the lab folder |
-| `Lab-4/` | Credit card fraud classification with multiple classifiers | `#PW 4.py` | Useful conceptually; depends on an external Kaggle dataset |
-| `Lab-5/` | Clustering methods on Iris and Spotify-style feature data | `clustering.py`, `clustering_spotify.py`, `clustering_spotify2.py` | Strong portfolio candidate, but the included `venv/` must be ignored |
-| `Lab-6/` | Multidimensional visualization for diabetes and wine datasets | `diabetes.py`, `Wine.py` | Useful visualization coursework; generated figures should not be committed by default |
-| `Lab-7/` | Image classification experiments using segmentation, PCA, SVM, Random Forest, and KNN | `dogbreed.py`, `wildfire.py`, `import os.py` | Interesting but high cleanup risk because datasets and trained `.pkl` files are external/artifacts |
-| `Presentation/` | Diabetes prediction model comparison across several classifiers | `diabetes_prediction_analysis.py` | Strong portfolio candidate after documenting the missing dataset |
+| Folder | Project focus | Main source files |
+| --- | --- | --- |
+| `Lab-1&2/` | Web scraping book data, EDA, text clustering, and a simple MLP classifier using generated genre labels | `Code/script.py`, `Code/analysis.py`, `Code/summary.py` |
+| `Lab-3/` | Adult income classification with imbalanced-data handling | `index.py` |
+| `Lab-4/` | Credit card fraud classification with multiple classifiers | `#PW 4.py` |
+| `Lab-5/` | Clustering methods on Iris and Spotify-style feature data | `clustering.py`, `clustering_spotify.py`, `clustering_spotify2.py` |
+| `Lab-6/` | Multidimensional visualization for diabetes and wine datasets | `diabetes.py`, `Wine.py` |
+| `Lab-7/` | Image classification experiments using segmentation, PCA, SVM, Random Forest, and KNN | `dogbreed.py`, `wildfire.py`, `import os.py` |
+| `Presentation/` | Diabetes prediction model comparison across several classifiers | `diabetes_prediction_analysis.py` |
 
 No Jupyter notebooks were found during cleanup. A `Lecture-PCA` folder was mentioned in the recovered coursework list, but it was not present in this workspace when this README was created.
 
@@ -60,7 +60,7 @@ No Jupyter notebooks were found during cleanup. A `Lecture-PCA` folder was menti
 |-- Lab-3/
 |-- Lab-4/
 |-- Lab-5/
-|   `-- venv/                  # ignored, not part of the portfolio source
+|   `-- venv/                  # ignored
 |-- Lab-6/
 |   `-- figures/               # generated outputs, ignored
 |-- Lab-7/
@@ -73,7 +73,7 @@ No Jupyter notebooks were found during cleanup. A `Lecture-PCA` folder was menti
 
 ## Dataset Notes
 
-Most datasets are not included in this repository. The source scripts use repo-relative dataset filenames where possible, but the actual datasets are external or generated locally. Legacy assignment snippets and generated reports from the recovered coursework may still contain personal metadata or local-path references and are ignored by default.
+Most datasets are not included in this repository. The source scripts use repo-relative dataset filenames where possible, but the actual datasets are external or generated locally. Assignment snippets and generated reports may contain document metadata or local-path references and are ignored by default.
 
 Known dataset dependencies:
 
@@ -114,7 +114,7 @@ Some scripts may still require small setup edits before they are reproducible on
 
 The recovered coursework includes generated reports, figures, and trained model artifacts. These outputs were not regenerated during this repository cleanup, and no new metrics are claimed here.
 
-For a public GitHub portfolio, commit source code and documentation first. Generated figures, model files, and large outputs should only be added later if they are small, reproducible, and free of private metadata.
+Generated figures, model files, and large outputs should only be added later if they are small, reproducible, and free of private metadata.
 
 ## Limitations
 
@@ -132,7 +132,7 @@ For a public GitHub portfolio, commit source code and documentation first. Gener
 - How imbalance handling changes model evaluation priorities.
 - How clustering methods differ across distance-based, density-based, hierarchical, and prototype-based approaches.
 - How visualizations help explain dataset structure and model behavior.
-- Why reproducible paths, dependency files, and clear dataset notes matter for a public portfolio repository.
+- Why reproducible paths, dependency files, and clear dataset notes matter.
 
 ## Future Improvements
 
